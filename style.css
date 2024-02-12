@@ -3,3 +3,8 @@
 body {
     background-color: brown;
 }
+
+.mainText1 {
+    font-size: 30px;
+    text-align: center;
+}
