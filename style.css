@@ -9,21 +9,21 @@ body {
     text-align: center;
 } 
 button{
-    background-color: #3498db;/*ボタンの背景色を青に設定*/
+    background-color: #3498db;
     background: transparent;
-    color: white;/* ボタンの文字色を白に設定 */
+    color: white;
     text-align: center;
 }
 
-.BrowerBackButton button:hover {
-    background-color: #2980b9;
-    /* マウスがボタンに乗った時の背景色を変更 */
+/* .BrowerBackButton button:hover {
+    background-color:bisque;
 }
 
 .BrowerBackButton button:active {
-    background-color: #1f618d;
-    /* ボタンがクリックされたときの背景色を変更 */
-}
+    background-color:blueviolet;
+ 
+} 
+*/
 
 .mainText1 {
     font-size: 30px;
