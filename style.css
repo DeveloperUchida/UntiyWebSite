@@ -5,19 +5,14 @@ body {
 }
 
 
-
-.BrowerBackButton button {
+.BrowerBackButton{
+    text-align: center;
+} 
+button{
     background-color: #3498db;/*ボタンの背景色を青に設定*/
-
+    background: transparent;
     color: white;/* ボタンの文字色を白に設定 */
-
-    padding: 10px 20px;/* ボタンのパディングを設定 */
-
-    border: none;/* ボタンのボーダーをなくす */
-
-    cursor: pointer;/* カーソルをポインターに設定 */
-    
-    outline: none;/* クリック時のフォーカス時の枠を削除 */
+    text-align: center;
 }
 
 .BrowerBackButton button:hover {
