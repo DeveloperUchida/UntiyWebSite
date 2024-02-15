@@ -4,6 +4,32 @@ body {
     background-color: brown;
 }
 
+
+
+.BrowerBackButton button {
+    background-color: #3498db;/*ボタンの背景色を青に設定*/
+
+    color: white;/* ボタンの文字色を白に設定 */
+
+    padding: 10px 20px;/* ボタンのパディングを設定 */
+
+    border: none;/* ボタンのボーダーをなくす */
+
+    cursor: pointer;/* カーソルをポインターに設定 */
+    
+    outline: none;/* クリック時のフォーカス時の枠を削除 */
+}
+
+.BrowerBackButton button:hover {
+    background-color: #2980b9;
+    /* マウスがボタンに乗った時の背景色を変更 */
+}
+
+.BrowerBackButton button:active {
+    background-color: #1f618d;
+    /* ボタンがクリックされたときの背景色を変更 */
+}
+
 .mainText1 {
     font-size: 30px;
     text-align: center;
