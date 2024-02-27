@@ -15,17 +15,20 @@ button{
     text-align: center;
 }
 
-/* .BrowerBackButton button:hover {
-    background-color:bisque;
-}
-
-.BrowerBackButton button:active {
-    background-color:blueviolet;
- 
-} 
-*/
 
 .mainText1 {
     font-size: 30px;
     text-align: center;
+}
+.cont{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+.Text{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+    display: inline-block;
 }
